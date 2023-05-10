@@ -1,0 +1,76 @@
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.79 Gbits/sec
+measured speed between nodes 1 and 4
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.78 Gbits/sec
+total receiver speed: 24.77 Gbits/sec
+measured speed between nodes 2 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.81 Gbits/sec
+measured speed between nodes 3 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.80 Gbits/sec
+
+Latency Info
+Node algofi statistics
+--- 10.10.92.3 ping statistics ---
+rtt min/avg/max/mdev = 0.079/0.226/0.314/0.083 ms
+--- 10.10.92.4 ping statistics ---
+rtt min/avg/max/mdev = 0.261/0.297/0.310/0.018 ms
+--- 10.10.92.5 ping statistics ---
+rtt min/avg/max/mdev = 0.207/0.287/0.312/0.040 ms
+Node gard statistics
+--- 10.10.92.4 ping statistics ---
+rtt min/avg/max/mdev = 0.242/0.313/0.427/0.061 ms
+--- 10.10.92.5 ping statistics ---
+rtt min/avg/max/mdev = 0.089/0.272/0.447/0.119 ms
+--- 10.10.92.2 ping statistics ---
+rtt min/avg/max/mdev = 0.204/0.283/0.308/0.039 ms
+Node goracle statistics
+--- 10.10.92.5 ping statistics ---
+rtt min/avg/max/mdev = 0.309/0.373/0.620/0.123 ms
+--- 10.10.92.2 ping statistics ---
+rtt min/avg/max/mdev = 0.204/0.286/0.315/0.041 ms
+--- 10.10.92.3 ping statistics ---
+rtt min/avg/max/mdev = 0.087/0.263/0.313/0.088 ms
+Node zone statistics
+--- 10.10.92.2 ping statistics ---
+rtt min/avg/max/mdev = 0.307/0.339/0.449/0.055 ms
+--- 10.10.92.3 ping statistics ---
+rtt min/avg/max/mdev = 0.305/0.309/0.325/0.007 ms
+--- 10.10.92.4 ping statistics ---
+rtt min/avg/max/mdev = 0.304/0.309/0.319/0.005 ms
