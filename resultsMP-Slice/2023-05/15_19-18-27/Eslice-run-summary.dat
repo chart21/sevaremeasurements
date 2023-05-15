@@ -1,0 +1,99 @@
+  Setup:
+    Experiment =  
+    Nodes = idex meld tinyman yieldly
+    Internal network = 10.10.61.0/24
+    Function: 2
+    Protocols: 8 10 11 12
+    Datatypes = 512
+    Inputs = 1000000
+    Preprocessing: 0
+    SplitRoles: 3
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 3 4
+    txBuffer: 0 1000 10000 100000
+    rxBuffer: 0 10000 100000
+    verifyBuffer: 1 3
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-05/15_19-18-27/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2023-05-15_19-18-31_506995
+  Total Experiment runtime = 1h48min34sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.78 Gbits/sec
+total receiver speed: 24.77 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.84 Gbits/sec
+total receiver speed: 24.82 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+measured speed between nodes 1 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.83 Gbits/sec
+total receiver speed: 24.83 Gbits/sec
+measured speed between nodes 2 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.83 Gbits/sec
+total receiver speed: 24.81 Gbits/sec
+measured speed between nodes 3 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.77 Gbits/sec
+
+Latency Info
+Node idex statistics
+--- 10.10.61.3 ping statistics ---
+rtt min/avg/max/mdev = 0.177/0.277/0.440/0.089 ms
+--- 10.10.61.4 ping statistics ---
+rtt min/avg/max/mdev = 0.226/0.298/0.524/0.113 ms
+--- 10.10.61.5 ping statistics ---
+rtt min/avg/max/mdev = 0.256/0.279/0.293/0.012 ms
+Node meld statistics
+--- 10.10.61.4 ping statistics ---
+rtt min/avg/max/mdev = 0.213/0.303/0.515/0.110 ms
+--- 10.10.61.5 ping statistics ---
+rtt min/avg/max/mdev = 0.275/0.320/0.472/0.076 ms
+--- 10.10.61.2 ping statistics ---
+rtt min/avg/max/mdev = 0.255/0.284/0.299/0.015 ms
+Node tinyman statistics
+--- 10.10.61.5 ping statistics ---
+rtt min/avg/max/mdev = 0.189/0.281/0.492/0.109 ms
+--- 10.10.61.2 ping statistics ---
+rtt min/avg/max/mdev = 0.248/0.267/0.285/0.013 ms
+--- 10.10.61.3 ping statistics ---
+rtt min/avg/max/mdev = 0.216/0.283/0.321/0.036 ms
+Node yieldly statistics
+--- 10.10.61.2 ping statistics ---
+rtt min/avg/max/mdev = 0.239/0.298/0.460/0.082 ms
+--- 10.10.61.3 ping statistics ---
+rtt min/avg/max/mdev = 0.248/0.283/0.304/0.018 ms
+--- 10.10.61.4 ping statistics ---
+rtt min/avg/max/mdev = 0.263/0.282/0.293/0.010 ms
