@@ -1,0 +1,99 @@
+  Setup:
+    Experiment =  
+    Nodes = idex meld tinyman yieldly
+    Internal network = 10.10.155.0/24
+    Function: 2
+    Protocols: 9
+    Datatypes = 512
+    Inputs = 1000000
+    Preprocessing: 0
+    SplitRoles: 3
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 3
+    txBuffer: 0 100 1000 100000
+    rxBuffer: 0 100000
+    verifyBuffer: 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-05/15_22-09-14/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2023-05-15_22-09-17_777709
+  Total Experiment runtime = 0h12min45sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.83 Gbits/sec
+total receiver speed: 24.79 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.86 Gbits/sec
+total receiver speed: 24.83 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.84 Gbits/sec
+total receiver speed: 24.81 Gbits/sec
+measured speed between nodes 1 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.80 Gbits/sec
+measured speed between nodes 2 and 4
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.80 Gbits/sec
+measured speed between nodes 3 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.84 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+
+Latency Info
+Node idex statistics
+--- 10.10.155.3 ping statistics ---
+rtt min/avg/max/mdev = 0.241/0.297/0.442/0.073 ms
+--- 10.10.155.4 ping statistics ---
+rtt min/avg/max/mdev = 0.281/0.330/0.504/0.086 ms
+--- 10.10.155.5 ping statistics ---
+rtt min/avg/max/mdev = 0.244/0.275/0.291/0.016 ms
+Node meld statistics
+--- 10.10.155.4 ping statistics ---
+rtt min/avg/max/mdev = 0.223/0.322/0.572/0.126 ms
+--- 10.10.155.5 ping statistics ---
+rtt min/avg/max/mdev = 0.303/0.337/0.449/0.055 ms
+--- 10.10.155.2 ping statistics ---
+rtt min/avg/max/mdev = 0.256/0.284/0.325/0.022 ms
+Node tinyman statistics
+--- 10.10.155.5 ping statistics ---
+rtt min/avg/max/mdev = 0.200/0.280/0.498/0.111 ms
+--- 10.10.155.2 ping statistics ---
+rtt min/avg/max/mdev = 0.216/0.265/0.292/0.026 ms
+--- 10.10.155.3 ping statistics ---
+rtt min/avg/max/mdev = 0.250/0.264/0.272/0.007 ms
+Node yieldly statistics
+--- 10.10.155.2 ping statistics ---
+rtt min/avg/max/mdev = 0.256/0.306/0.419/0.057 ms
+--- 10.10.155.3 ping statistics ---
+rtt min/avg/max/mdev = 0.262/0.283/0.300/0.014 ms
+--- 10.10.155.4 ping statistics ---
+rtt min/avg/max/mdev = 0.263/0.283/0.303/0.013 ms
