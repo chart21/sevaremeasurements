@@ -1,0 +1,60 @@
+  Setup:
+    Experiment = 46_only_search 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.180.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = replicated-bin
+    Inputs = 1000
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2023-05/22_19-50-08/E46-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2023-05-22_19-50-11_076629
+  Total Experiment runtime = 0h7min39sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.83 Gbits/sec
+total receiver speed: 24.82 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.76 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.180.3 ping statistics ---
+rtt min/avg/max/mdev = 0.196/0.298/0.528/0.117 ms
+--- 10.10.180.4 ping statistics ---
+rtt min/avg/max/mdev = 0.251/0.273/0.287/0.012 ms
+Node tinyman statistics
+--- 10.10.180.4 ping statistics ---
+rtt min/avg/max/mdev = 0.211/0.300/0.521/0.113 ms
+--- 10.10.180.2 ping statistics ---
+rtt min/avg/max/mdev = 0.191/0.269/0.306/0.043 ms
+Node yieldly statistics
+--- 10.10.180.2 ping statistics ---
+rtt min/avg/max/mdev = 0.243/0.320/0.529/0.108 ms
+--- 10.10.180.3 ping statistics ---
+rtt min/avg/max/mdev = 0.250/0.258/0.267/0.005 ms
