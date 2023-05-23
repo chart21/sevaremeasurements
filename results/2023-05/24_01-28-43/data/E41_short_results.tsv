@@ -1,0 +1,2 @@
+program  c.domain  adv.model   protocol         partysize  comp.time(s)  comp.peakRAM(MiB)  bin.filesize(MiB)  input_size  runtime_internal(s)  runtime_external(s)  peakRAM(MiB)  jobCPU(%)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+41       RING      semihonest  replicated-ring  3          67.03         2782               20                 100000      0.106653             0.59                 104           72         ~4            3.2             8.8
