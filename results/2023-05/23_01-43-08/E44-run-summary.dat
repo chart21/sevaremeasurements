@@ -1,0 +1,60 @@
+  Setup:
+    Experiment = 44_only_mult 2
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.51.0/24
+    Protocols:
+      Field  = 
+      Ring   = replicated-ring
+      Binary = 
+    Inputs = 100000 1000000
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2023-05/23_01-43-08/E44-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2023-05-23_01-43-11_653475
+  Total Experiment runtime = 0h49min22sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .96 Gbits/sec
+total receiver speed: .96 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .94 Gbits/sec
+total receiver speed: .91 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .96 Gbits/sec
+total receiver speed: .96 Gbits/sec
+
+Latency Info
+Node dogecoin statistics
+--- 10.10.51.3 ping statistics ---
+rtt min/avg/max/mdev = 0.142/600.685/2013.461/803.621 ms, pipe 2
+--- 10.10.51.4 ping statistics ---
+rtt min/avg/max/mdev = 0.206/0.210/0.217/0.004 ms
+Node dogecoincash statistics
+--- 10.10.51.2 ping statistics ---
+rtt min/avg/max/mdev = 0.216/203.968/1018.766/407.398 ms, pipe 2
+--- 10.10.51.4 ping statistics ---
+rtt min/avg/max/mdev = 0.181/0.217/0.311/0.048 ms
+Node dogecoingold statistics
+--- 10.10.51.2 ping statistics ---
+rtt min/avg/max/mdev = 0.210/205.979/1028.880/411.450 ms, pipe 2
+--- 10.10.51.3 ping statistics ---
+rtt min/avg/max/mdev = 0.106/0.130/0.174/0.023 ms
