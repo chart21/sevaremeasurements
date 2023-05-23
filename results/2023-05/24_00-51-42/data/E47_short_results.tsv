@@ -1,0 +1,2 @@
+program  c.domain  adv.model  protocol   partysize  comp.time(s)  comp.peakRAM(MiB)  bin.filesize(MiB)  input_size  runtime_internal(s)  runtime_external(s)  peakRAM(MiB)  jobCPU(%)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+47       RING      malhonest  rep4-ring  4          20.84         970                6                  100000      0.0350383            0.27                 63            86         ~16           1.60257         4.81027
