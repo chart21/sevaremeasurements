@@ -1,0 +1,110 @@
+  Setup:
+    Experiment =  
+    Nodes = idex meld tinyman yieldly
+    Internal network = 10.10.49.0/24
+    Function: 14
+    Protocols: 5 2 3 6
+    Datatypes = 512
+    Inputs = 1000 4000 8000 12000 16000 20000
+    Preprocessing: 0
+    SplitRoles: 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 6
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 0
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-09/26_13-28-04/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677
+  Total Experiment runtime = 0h20min8sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677/idex/terminal_output_run00.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677/idex/terminal_output_run01.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677/idex/terminal_output_run02.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677/idex/terminal_output_run03.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677/idex/terminal_output_run04.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677/idex/terminal_output_run05.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677/idex/terminal_output_run06.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677/idex/terminal_output_run07.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677/idex/terminal_output_run08.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677/idex/terminal_output_run09.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-09-26_13-28-07_927677/idex/terminal_output_run10.txt[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 1 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 2 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.70 Gbits/sec
+measured speed between nodes 3 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+
+Latency Info
+Node idex statistics
+--- 10.10.49.3 ping statistics ---
+rtt min/avg/max/mdev = 0.261/0.330/0.503/0.087 ms
+--- 10.10.49.4 ping statistics ---
+rtt min/avg/max/mdev = 0.278/0.340/0.515/0.088 ms
+--- 10.10.49.5 ping statistics ---
+rtt min/avg/max/mdev = 0.235/0.273/0.292/0.020 ms
+Node meld statistics
+--- 10.10.49.4 ping statistics ---
+rtt min/avg/max/mdev = 0.174/0.321/0.572/0.132 ms
+--- 10.10.49.5 ping statistics ---
+rtt min/avg/max/mdev = 0.197/0.279/0.489/0.109 ms
+--- 10.10.49.2 ping statistics ---
+rtt min/avg/max/mdev = 0.224/0.278/0.320/0.039 ms
+Node tinyman statistics
+--- 10.10.49.5 ping statistics ---
+rtt min/avg/max/mdev = 0.268/0.347/0.569/0.111 ms
+--- 10.10.49.2 ping statistics ---
+rtt min/avg/max/mdev = 0.245/0.301/0.336/0.036 ms
+--- 10.10.49.3 ping statistics ---
+rtt min/avg/max/mdev = 0.230/0.274/0.309/0.025 ms
+Node yieldly statistics
+--- 10.10.49.2 ping statistics ---
+rtt min/avg/max/mdev = 0.223/0.331/0.522/0.100 ms
+--- 10.10.49.3 ping statistics ---
+rtt min/avg/max/mdev = 0.272/0.290/0.319/0.018 ms
+--- 10.10.49.4 ping statistics ---
+rtt min/avg/max/mdev = 0.300/0.312/0.328/0.009 ms
