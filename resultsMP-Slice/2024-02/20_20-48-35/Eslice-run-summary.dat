@@ -1,0 +1,79 @@
+  Setup:
+    Experiment =  
+    Nodes = algofi gard goracle
+    Internal network = 10.10.253.0/24
+    Function: 404 405 406
+    Protocols: 5
+    Datatypes = 32
+    Inputs = 10000 100000 1000000 10000000
+    Preprocessing: 0 1
+    SplitRoles: 0
+    Pack Bool: 0 1
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 1
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 2
+    Testtypes:
+  Summary file = resultsMP-Slice/2024-02/20_20-48-35/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116
+  Total Experiment runtime = 0h19min50sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116/algofi/terminal_output_run00.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116/algofi/terminal_output_run01.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116/algofi/terminal_output_run02.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116/algofi/terminal_output_run03.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116/algofi/terminal_output_run04.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116/algofi/terminal_output_run05.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116/algofi/terminal_output_run06.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116/algofi/terminal_output_run07.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116/algofi/terminal_output_run08.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116/algofi/terminal_output_run09.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-20_20-48-37_798116/algofi/terminal_output_run10.txt[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.78 Gbits/sec
+total receiver speed: 24.65 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+
+Latency Info
+Node algofi statistics
+--- 10.10.253.3 ping statistics ---
+rtt min/avg/max/mdev = 0.089/0.185/0.344/0.115 ms
+--- 10.10.253.4 ping statistics ---
+rtt min/avg/max/mdev = 0.207/0.292/0.428/0.081 ms
+--- 10.10.253.5 ping statistics ---
+Node gard statistics
+--- 10.10.253.4 ping statistics ---
+rtt min/avg/max/mdev = 0.208/0.233/0.317/0.041 ms
+--- 10.10.253.5 ping statistics ---
+--- 10.10.253.2 ping statistics ---
+rtt min/avg/max/mdev = 0.207/0.208/0.210/0.001 ms
+Node goracle statistics
+--- 10.10.253.5 ping statistics ---
+--- 10.10.253.2 ping statistics ---
+rtt min/avg/max/mdev = 0.304/0.307/0.310/0.002 ms
+--- 10.10.253.3 ping statistics ---
+rtt min/avg/max/mdev = 0.304/0.307/0.310/0.002 ms
