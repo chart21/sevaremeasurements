@@ -12,9 +12,9 @@ repo_hpmpc: https://github.com/chart21/hpmpc.git
 repo_motion_dir: /root/MOTION
 repo_motion: https://github.com/jonasschiller/motion.git
 
-repo: https://github.com/chart21/mpc-bench.git
+repo: https://github.com/chart21/mpcbench.git
 # changing the repo_paths requires changing them in pos_helper.sh too
-repo_dir: /root/mpc-bench
+repo_dir: /root/mpcbench
 repoupload: git@github.com:chart21/sevaremeasurements.git
 
 #######
