@@ -70,7 +70,7 @@ setupExperiment() {
 
 	echo "  setting up host(s) ${NODES[*]}"
 	ipaddr=2
-	path=/root/sevarebenchabstract/host_scripts/
+	path=/root/mpc-bench/host_scripts/
 	
 	for node in "${NODES[@]}"; do
 		{ "$POS" comm laun --infile host_scripts/"$FRAMEWORK"/host_setup.sh --blocking "$node" ;
@@ -89,7 +89,7 @@ runExperiment() {
 	
 	echo "  running experiment on host(s) ${NODES[*]}"
 	player=0
-	path=/root/sevarebenchabstract/host_scripts/"$FRAMEWORK"
+	path=/root/mpc-bench/host_scripts/"$FRAMEWORK"
 	script="$path"/measurement.sh
 	if [ "$FRAMEWORK" == "mp-spdz" ]; then
 		cdomain=$1
