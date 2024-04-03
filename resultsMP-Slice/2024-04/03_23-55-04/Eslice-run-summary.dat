@@ -1,0 +1,79 @@
+  Setup:
+    Experiment =  
+    Nodes = gard goracle zone
+    Internal network = 10.10.134.0/24
+    Function: 401
+    Protocols: 5
+    Datatypes = 32 256
+    Inputs = 1
+    Preprocessing: 0 1
+    SplitRoles: 0 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 1 2 3 4
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 2
+    Testtypes:
+  Summary file = resultsMP-Slice/2024-04/03_23-55-04/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692
+  Total Experiment runtime = 0h24min31sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692/gard/terminal_output_run00.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692/gard/terminal_output_run01.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692/gard/terminal_output_run02.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692/gard/terminal_output_run03.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692/gard/terminal_output_run04.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692/gard/terminal_output_run05.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692/gard/terminal_output_run06.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692/gard/terminal_output_run07.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692/gard/terminal_output_run08.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692/gard/terminal_output_run09.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-55-07_197692/gard/terminal_output_run10.txt[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.70 Gbits/sec
+
+Latency Info
+Node gard statistics
+--- 10.10.134.3 ping statistics ---
+rtt min/avg/max/mdev = 0.111/0.262/0.312/0.077 ms
+--- 10.10.134.4 ping statistics ---
+rtt min/avg/max/mdev = 0.305/0.333/0.427/0.047 ms
+--- 10.10.134.5 ping statistics ---
+Node goracle statistics
+--- 10.10.134.4 ping statistics ---
+rtt min/avg/max/mdev = 0.307/0.357/0.550/0.096 ms
+--- 10.10.134.5 ping statistics ---
+--- 10.10.134.2 ping statistics ---
+rtt min/avg/max/mdev = 0.308/0.309/0.311/0.001 ms
+Node zone statistics
+--- 10.10.134.5 ping statistics ---
+--- 10.10.134.2 ping statistics ---
+rtt min/avg/max/mdev = 0.303/0.306/0.309/0.002 ms
+--- 10.10.134.3 ping statistics ---
+rtt min/avg/max/mdev = 0.307/0.308/0.311/0.001 ms
