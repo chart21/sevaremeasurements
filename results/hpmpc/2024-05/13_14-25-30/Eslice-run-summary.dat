@@ -1,0 +1,37 @@
+  Setup:
+    Experiment =  
+    Nodes = idex meld tinyman
+    Internal network = 10.10.41.0/24
+    Function: 58
+    Protocols: 5
+    Datatypes = 512
+    Inputs = 10000
+    Preprocessing: 0 1
+    SplitRoles: 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 4
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 1
+    Testtypes:
+  Summary file = results/hpmpc/2024-05/13_14-25-30/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2024-05-13_14-25-33_291114
+  Total Experiment runtime = 2h43min16sec
+  Experiment run status: [0;33mincomplete[0m
+
+
+Networking Information
+Speedtest Info
+
+Latency Info
+Node idex statistics
+--- 10.10.41.3 ping statistics ---
+--- 10.10.41.4 ping statistics ---
+Node meld statistics
+--- 10.10.41.4 ping statistics ---
+--- 10.10.41.2 ping statistics ---
+Node tinyman statistics
+--- 10.10.41.2 ping statistics ---
+--- 10.10.41.3 ping statistics ---
