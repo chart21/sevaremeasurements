@@ -1,0 +1,2 @@
+program;protocol;partysize;input_size;runtime_internal(ms);runtime_external(s);peakRAM(MiB);jobCPU(%);ALLdataSent(MB);AllDataRec(MB);ALLmessagesSent;AllMessagesRec
+multiplication;arithmetic_gmw;3;10000000;;0.00;1;80;NA;NA;NA;NA
