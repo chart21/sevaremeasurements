@@ -1,0 +1,2 @@
+program;protocol;partysize;input_size;runtime_internal(ms);runtime_external(s);peakRAM(MiB);jobCPU(%);ALLdataSent(MB);AllDataRec(MB);ALLmessagesSent;AllMessagesRec;multTripPresetup;multTripSetup;sharedPowerPresetup;sharedPowerSetup;sharedBitPresetup;sharedBitSetup;baseOT;otExtension;kk13OtExtension;preprocessingTime;gatesSetup;gatesOnline
+multiplication;arithmetic_gmw;3;1000;;0.00;1;66;NA;NA;NA;NA;;;;;;;;;;;;
