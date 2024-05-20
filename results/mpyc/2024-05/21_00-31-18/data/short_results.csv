@@ -1,0 +1,6 @@
+program;partysize;input_size;runtime_internal(s);Bytes Send;runtime_external(s);peakRAM(MiB);System Time(s)
+Benchmarks/multiplication;3;1000;0:00:00.010;21333;0.32;53;3.98
+Benchmarks/multiplication;3;10000;0:00:00.033;210351;0.32;42;4.04
+Benchmarks/multiplication;3;100000;0:00:00.422;2100807;0.66;74;4.07
+Benchmarks/multiplication;3;1000000;0:00:02.339;21002885;2.64;359;4.53
+Benchmarks/multiplication;3;10000000;0:00:24.941;210029396;25.30;3250;8.21
