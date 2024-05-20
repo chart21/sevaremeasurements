@@ -1,0 +1,3 @@
+program;partysize;input_size;runtime_internal(s);Bytes Send;runtime_external(s);peakRAM(MiB);System Time(s)
+Benchmarks/BitAND;4;1000;0:00:01.353;152864;1.67;87;4.03
+Benchmarks/BitAND;4;10000;0:00:17.214;1529864;17.55;485;4.35
