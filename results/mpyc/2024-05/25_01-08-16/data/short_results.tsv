@@ -1,0 +1,11 @@
+program                    partysize  input_size  runtime_internal(s)  Bytes Send  runtime_external(s)  peakRAM(MiB)  System Time(s)
+Benchmarks/multiplication  3          10000000    0:00:19.552          210032171   24.72                3265          8.11
+Benchmarks/multiplication  3          10000000    0:00:24.520          210027490   24.79                3254          8.23
+Benchmarks/multiplication  3          10000000    0:00:24.347          210025349   24.60                3248          8.08
+Benchmarks/multiplication  3          10000000    0:00:24.046          210031022   24.40                3248          7.89
+Benchmarks/multiplication  3          10000000    0:00:19.569          210028942   24.70                3251          8.15
+Benchmarks/multiplication  3          10000000    0:00:19.283          210031222   24.44                3248          8.15
+Benchmarks/multiplication  3          10000000    0:00:24.234          210028229   24.49                3255          8.45
+Benchmarks/multiplication  3          10000000    0:00:24.262          210028154   24.62                3249          8.02
+Benchmarks/multiplication  3          10000000    0:00:24.698          210030133   25.03                3261          7.97
+Benchmarks/multiplication  3          10000000    0:00:24.475          210030103   24.84                3251          8.14
