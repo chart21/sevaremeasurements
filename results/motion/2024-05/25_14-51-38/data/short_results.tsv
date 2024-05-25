@@ -1,0 +1,11 @@
+program         protocol        partysize  input_size  runtime_internal(ms)  runtime_external(s)  peakRAM(MiB)  jobCPU(%)  ALLdataSent(MB)  AllDataRec(MB)  ALLmessagesSent  AllMessagesRec
+multiplication  arithmetic_gmw  4          1000000     15724.065             24.40                21929         183        621.829          621.829         514              514
+multiplication  arithmetic_gmw  4          1000000     16445.750             25.17                21868         173        621.829          621.829         514              514
+multiplication  arithmetic_gmw  4          1000000     15385.497             24.14                21930         172        621.829          621.829         514              514
+multiplication  arithmetic_gmw  4          1000000     15817.030             24.59                21929         182        621.829          621.829         514              514
+multiplication  arithmetic_gmw  4          1000000     15208.667             24.30                21866         174        621.829          621.829         514              514
+multiplication  arithmetic_gmw  4          1000000     15822.109             24.08                21920         175        621.829          621.829         514              514
+multiplication  arithmetic_gmw  4          1000000     16312.224             25.24                21868         180        621.829          621.829         514              514
+multiplication  arithmetic_gmw  4          1000000     15674.477             24.73                21867         171        621.829          621.829         514              514
+multiplication  arithmetic_gmw  4          1000000     15598.731             24.72                21868         178        621.829          621.829         514              514
+multiplication  arithmetic_gmw  4          1000000     15883.640             24.94                21869         181        621.829          621.829         514              514
