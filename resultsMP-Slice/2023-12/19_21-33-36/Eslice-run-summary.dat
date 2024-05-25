@@ -1,0 +1,110 @@
+  Setup:
+    Experiment =  
+    Nodes = algofi gard goracle zone
+    Internal network = 10.10.68.0/24
+    Function: 37 38 39 40 41
+    Protocols: 5
+    Datatypes = 256
+    Inputs = 32 224
+    Preprocessing: 0
+    SplitRoles: 2
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 1 2 3
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 0
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-12/19_21-33-36/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585
+  Total Experiment runtime = 1h24min19sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585/algofi/terminal_output_run00.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585/algofi/terminal_output_run01.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585/algofi/terminal_output_run02.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585/algofi/terminal_output_run03.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585/algofi/terminal_output_run04.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585/algofi/terminal_output_run05.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585/algofi/terminal_output_run06.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585/algofi/terminal_output_run07.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585/algofi/terminal_output_run08.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585/algofi/terminal_output_run09.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2023-12-19_21-33-39_336585/algofi/terminal_output_run10.txt[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.77 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 1 and 4
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+measured speed between nodes 2 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.65 Gbits/sec
+measured speed between nodes 3 and 4
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+
+Latency Info
+Node algofi statistics
+--- 10.10.68.3 ping statistics ---
+rtt min/avg/max/mdev = 0.258/0.303/0.319/0.022 ms
+--- 10.10.68.4 ping statistics ---
+rtt min/avg/max/mdev = 0.310/0.381/0.656/0.137 ms
+--- 10.10.68.5 ping statistics ---
+rtt min/avg/max/mdev = 0.202/0.285/0.312/0.042 ms
+Node gard statistics
+--- 10.10.68.4 ping statistics ---
+rtt min/avg/max/mdev = 0.252/0.287/0.390/0.051 ms
+--- 10.10.68.5 ping statistics ---
+rtt min/avg/max/mdev = 0.309/0.336/0.438/0.051 ms
+--- 10.10.68.2 ping statistics ---
+rtt min/avg/max/mdev = 0.085/0.100/0.116/0.011 ms
+Node goracle statistics
+--- 10.10.68.5 ping statistics ---
+rtt min/avg/max/mdev = 0.204/0.298/0.674/0.187 ms
+--- 10.10.68.2 ping statistics ---
+rtt min/avg/max/mdev = 0.078/0.101/0.118/0.016 ms
+--- 10.10.68.3 ping statistics ---
+rtt min/avg/max/mdev = 0.189/0.220/0.313/0.046 ms
+Node zone statistics
+--- 10.10.68.2 ping statistics ---
+rtt min/avg/max/mdev = 0.302/0.371/0.639/0.133 ms
+--- 10.10.68.3 ping statistics ---
+rtt min/avg/max/mdev = 0.312/0.316/0.328/0.005 ms
+--- 10.10.68.4 ping statistics ---
+rtt min/avg/max/mdev = 0.293/0.303/0.308/0.005 ms

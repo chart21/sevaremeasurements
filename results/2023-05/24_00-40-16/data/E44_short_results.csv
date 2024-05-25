@@ -1,0 +1,2 @@
+program;c.domain;adv.model;protocol;partysize;comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);input_size;runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+44;RING;semihonest;replicated-ring;3;127.69;2788;1;100000;0.037617;0.92;161;97;~4;1.60002;4.80005

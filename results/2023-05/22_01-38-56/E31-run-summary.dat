@@ -1,0 +1,60 @@
+  Setup:
+    Experiment = 31_scalable_search 
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.16.0/24
+    Protocols:
+      Field  = shamir
+      Ring   = 
+      Binary = 
+    Inputs = 1000
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2023-05/22_01-38-56/E31-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2023-05-22_01-38-59_942950
+  Total Experiment runtime = 0h9min33sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .94 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .96 Gbits/sec
+total receiver speed: .96 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .95 Gbits/sec
+
+Latency Info
+Node dogecoin statistics
+--- 10.10.16.3 ping statistics ---
+rtt min/avg/max/mdev = 0.179/0.278/0.377/0.099 ms, pipe 4
+--- 10.10.16.4 ping statistics ---
+rtt min/avg/max/mdev = 0.163/0.195/0.221/0.021 ms
+Node dogecoincash statistics
+--- 10.10.16.2 ping statistics ---
+rtt min/avg/max/mdev = 0.175/614.636/2049.323/819.493 ms, pipe 2
+--- 10.10.16.4 ping statistics ---
+rtt min/avg/max/mdev = 0.191/0.223/0.282/0.031 ms
+Node dogecoingold statistics
+--- 10.10.16.2 ping statistics ---
+rtt min/avg/max/mdev = 0.193/615.240/2050.720/820.067 ms, pipe 3
+--- 10.10.16.3 ping statistics ---
+rtt min/avg/max/mdev = 0.112/0.144/0.189/0.036 ms

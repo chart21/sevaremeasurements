@@ -1,0 +1,98 @@
+  Setup:
+    Experiment =  
+    Nodes = algofi gard goracle zone
+    Internal network = 10.10.86.0/24
+    Function: 2
+    Protocols: 7 8 10 11 12
+    Datatypes = 256
+    Inputs = 1000000
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 1 10 20 30 40 50 60
+    txBuffer: 0
+    rxBuffer: 0
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-05/14_00-58-54/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2023-05-14_00-58-59_198594
+  Total Experiment runtime = 0h14min2sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.80 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+measured speed between nodes 1 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+measured speed between nodes 2 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.79 Gbits/sec
+measured speed between nodes 3 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.77 Gbits/sec
+
+Latency Info
+Node algofi statistics
+--- 10.10.86.3 ping statistics ---
+rtt min/avg/max/mdev = 0.213/0.288/0.315/0.037 ms
+--- 10.10.86.4 ping statistics ---
+rtt min/avg/max/mdev = 0.083/0.324/0.627/0.173 ms
+--- 10.10.86.5 ping statistics ---
+rtt min/avg/max/mdev = 0.305/0.307/0.309/0.001 ms
+Node gard statistics
+--- 10.10.86.4 ping statistics ---
+rtt min/avg/max/mdev = 0.080/0.168/0.463/0.147 ms
+--- 10.10.86.5 ping statistics ---
+rtt min/avg/max/mdev = 0.305/0.371/0.630/0.129 ms
+--- 10.10.86.2 ping statistics ---
+rtt min/avg/max/mdev = 0.305/0.307/0.309/0.001 ms
+Node goracle statistics
+--- 10.10.86.5 ping statistics ---
+rtt min/avg/max/mdev = 0.307/0.376/0.646/0.135 ms
+--- 10.10.86.2 ping statistics ---
+rtt min/avg/max/mdev = 0.305/0.307/0.312/0.002 ms
+--- 10.10.86.3 ping statistics ---
+rtt min/avg/max/mdev = 0.204/0.286/0.315/0.041 ms
+Node zone statistics
+--- 10.10.86.2 ping statistics ---
+rtt min/avg/max/mdev = 0.203/0.335/0.641/0.160 ms
+--- 10.10.86.3 ping statistics ---
+rtt min/avg/max/mdev = 0.150/0.275/0.313/0.062 ms
+--- 10.10.86.4 ping statistics ---
+rtt min/avg/max/mdev = 0.207/0.288/0.313/0.040 ms

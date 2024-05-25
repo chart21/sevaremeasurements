@@ -1,0 +1,2 @@
+program  c.domain  adv.model   protocol        partysize  comp.time(s)  comp.peakRAM(MiB)  bin.filesize(MiB)  input_size  runtime_internal(s)  runtime_external(s)  peakRAM(MiB)  jobCPU(%)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+45       BINARY    semihonest  replicated-bin  3          18.78         974                7                  100000      0.0138868            0.17                 44            82         NA            0.10004         NA

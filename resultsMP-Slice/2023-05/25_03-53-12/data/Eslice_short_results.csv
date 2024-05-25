@@ -1,0 +1,3 @@
+comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);ssl;threads;datatype;function;optshare;packbool;protocol;rxbuffer;txbuffer;input_size;preprocess;splitroles;verifybuffer;inittime(s);preproc(s);runtime_clock(s);runtime_getTime(s);runtime_chrono(s);runtime_external(s);peakRAM(MiB);jobCPU(%)
+1.68;221;1;0;40;512;6;1;0;9;100000;10000;10000000;0;0;1;.003834;NA;.229127;.214314;.214314;.244250;4892;3864
+1.42;221;1;0;40;512;6;1;0;9;100000;10000;30000000;0;0;1;.000307;NA;.015826;.013963;.013963;10.500000;14671;79

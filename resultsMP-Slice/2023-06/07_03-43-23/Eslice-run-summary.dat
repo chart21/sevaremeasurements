@@ -1,0 +1,69 @@
+  Setup:
+    Experiment =  
+    Nodes = gard goracle zone
+    Internal network = 10.10.96.0/24
+    Function: 3
+    Protocols: 2 5
+    Datatypes = 256
+    Inputs = 10000 100000
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 1
+    txBuffer: 0
+    rxBuffer: 0
+    verifyBuffer: 1
+    Testtypes:
+      LATENCIES	= 1 2 4 8 10 20 30 40 50 60
+  Summary file = resultsMP-Slice/2023-06/07_03-43-23/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2023-06-07_03-43-28_228550
+  Total Experiment runtime = 0h42min58sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.80 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+
+Latency Info
+Node gard statistics
+--- 10.10.96.3 ping statistics ---
+rtt min/avg/max/mdev = 0.204/0.286/0.313/0.041 ms
+--- 10.10.96.4 ping statistics ---
+rtt min/avg/max/mdev = 0.206/0.353/0.649/0.152 ms
+--- 10.10.96.5 ping statistics ---
+Node goracle statistics
+--- 10.10.96.4 ping statistics ---
+rtt min/avg/max/mdev = 0.208/0.313/0.631/0.163 ms
+--- 10.10.96.5 ping statistics ---
+--- 10.10.96.2 ping statistics ---
+rtt min/avg/max/mdev = 0.305/0.307/0.309/0.001 ms
+Node zone statistics
+--- 10.10.96.5 ping statistics ---
+--- 10.10.96.2 ping statistics ---
+rtt min/avg/max/mdev = 0.199/0.278/0.305/0.039 ms
+--- 10.10.96.3 ping statistics ---
+rtt min/avg/max/mdev = 0.203/0.267/0.319/0.051 ms

@@ -1,0 +1,65 @@
+  Setup:
+    Experiment =  
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.139.0/24
+    Function: 529 530 531
+    Protocols: 5
+    Datatypes = 512
+    Inputs = 1
+    Preprocessing: 0
+    SplitRoles: 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 4
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 1
+    Testtypes:
+      BANDWIDTHS	= 25000 25000 25000 25000 25000 25000 25000 25000 25000 25000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 100 100 100 100 100 100 100 100 100 100
+  Summary file = results/mp-slice/2024-05/09_20-05-07/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2024-05-09_20-05-10_191088
+  Total Experiment runtime = 4h14min33sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.139.3 ping statistics ---
+rtt min/avg/max/mdev = 0.281/0.347/0.562/0.107 ms
+--- 10.10.139.4 ping statistics ---
+rtt min/avg/max/mdev = 0.289/0.295/0.302/0.004 ms
+Node tinyman statistics
+--- 10.10.139.4 ping statistics ---
+rtt min/avg/max/mdev = 0.260/0.320/0.521/0.100 ms
+--- 10.10.139.2 ping statistics ---
+rtt min/avg/max/mdev = 0.272/0.286/0.296/0.008 ms
+Node yieldly statistics
+--- 10.10.139.2 ping statistics ---
+rtt min/avg/max/mdev = 0.279/0.348/0.570/0.111 ms
+--- 10.10.139.3 ping statistics ---
+rtt min/avg/max/mdev = 0.280/0.288/0.298/0.005 ms

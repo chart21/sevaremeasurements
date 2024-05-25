@@ -1,0 +1,72 @@
+  Setup:
+    Experiment =  
+    Nodes = gard goracle zone
+    Internal network = 10.10.39.0/24
+    Function: 400
+    Protocols: 5
+    Datatypes = 32
+    Inputs = 1
+    Preprocessing: 0 1
+    SplitRoles: 0 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 1
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 2
+    Testtypes:
+  Summary file = resultsMP-Slice/2024-04/03_23-45-39/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2024-04-03_23-45-42_133651
+  Total Experiment runtime = 0h9min22sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-45-42_133651/gard/terminal_output_run0.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-45-42_133651/gard/terminal_output_run1.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-45-42_133651/gard/terminal_output_run2.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-04-03_23-45-42_133651/gard/terminal_output_run3.txt[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+
+Latency Info
+Node gard statistics
+--- 10.10.39.3 ping statistics ---
+rtt min/avg/max/mdev = 0.208/0.217/0.248/0.015 ms
+--- 10.10.39.4 ping statistics ---
+rtt min/avg/max/mdev = 0.207/0.238/0.350/0.055 ms
+--- 10.10.39.5 ping statistics ---
+Node goracle statistics
+--- 10.10.39.4 ping statistics ---
+rtt min/avg/max/mdev = 0.209/0.340/0.663/0.167 ms
+--- 10.10.39.5 ping statistics ---
+--- 10.10.39.2 ping statistics ---
+rtt min/avg/max/mdev = 0.196/0.287/0.317/0.045 ms
+Node zone statistics
+--- 10.10.39.5 ping statistics ---
+--- 10.10.39.2 ping statistics ---
+rtt min/avg/max/mdev = 0.305/0.307/0.311/0.002 ms
+--- 10.10.39.3 ping statistics ---
+rtt min/avg/max/mdev = 0.289/0.304/0.311/0.007 ms

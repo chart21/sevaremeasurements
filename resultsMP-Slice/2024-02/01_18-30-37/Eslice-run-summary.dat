@@ -1,0 +1,74 @@
+  Setup:
+    Experiment =  
+    Nodes = algofi gard goracle
+    Internal network = 10.10.217.0/24
+    Function: 41
+    Protocols: 5
+    Datatypes = 256
+    Inputs = 32 64 224
+    Preprocessing: 0 1
+    SplitRoles: 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 4
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 0
+    Testtypes:
+  Summary file = resultsMP-Slice/2024-02/01_18-30-37/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2024-02-01_18-30-40_936476
+  Total Experiment runtime = 0h12min51sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-01_18-30-40_936476/algofi/terminal_output_run0.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-01_18-30-40_936476/algofi/terminal_output_run1.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-01_18-30-40_936476/algofi/terminal_output_run2.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-01_18-30-40_936476/algofi/terminal_output_run3.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-01_18-30-40_936476/algofi/terminal_output_run4.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/harthkit/default/2024-02-01_18-30-40_936476/algofi/terminal_output_run5.txt[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.83 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.64 Gbits/sec
+
+Latency Info
+Node algofi statistics
+--- 10.10.217.3 ping statistics ---
+rtt min/avg/max/mdev = 0.197/0.276/0.310/0.044 ms
+--- 10.10.217.4 ping statistics ---
+rtt min/avg/max/mdev = 0.253/0.329/0.453/0.066 ms
+--- 10.10.217.5 ping statistics ---
+Node gard statistics
+--- 10.10.217.4 ping statistics ---
+rtt min/avg/max/mdev = 0.087/0.206/0.436/0.141 ms
+--- 10.10.217.5 ping statistics ---
+--- 10.10.217.2 ping statistics ---
+rtt min/avg/max/mdev = 0.308/0.312/0.316/0.003 ms
+Node goracle statistics
+--- 10.10.217.5 ping statistics ---
+--- 10.10.217.2 ping statistics ---
+rtt min/avg/max/mdev = 0.308/0.310/0.313/0.001 ms
+--- 10.10.217.3 ping statistics ---
+rtt min/avg/max/mdev = 0.295/0.308/0.319/0.007 ms

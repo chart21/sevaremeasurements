@@ -1,0 +1,67 @@
+  Setup:
+    Experiment =  
+    Nodes = algofi gard goracle
+    Internal network = 10.10.173.0/24
+    Function: 2
+    Protocols: 2 3 4 5 6
+    Datatypes = 256
+    Inputs = 1000000 10000000 100000000 1000000000
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 15 25
+    txBuffer: 0
+    rxBuffer: 0
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-05/11_22-06-40/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2023-05-11_22-06-43_642250
+  Total Experiment runtime = 0h57min3sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.77 Gbits/sec
+
+Latency Info
+Node algofi statistics
+--- 10.10.173.3 ping statistics ---
+rtt min/avg/max/mdev = 0.252/0.294/0.309/0.021 ms
+--- 10.10.173.4 ping statistics ---
+rtt min/avg/max/mdev = 0.092/0.281/0.417/0.105 ms
+--- 10.10.173.5 ping statistics ---
+Node gard statistics
+--- 10.10.173.4 ping statistics ---
+rtt min/avg/max/mdev = 0.300/0.331/0.450/0.059 ms
+--- 10.10.173.5 ping statistics ---
+--- 10.10.173.2 ping statistics ---
+rtt min/avg/max/mdev = 0.305/0.306/0.309/0.001 ms
+Node goracle statistics
+--- 10.10.173.5 ping statistics ---
+--- 10.10.173.2 ping statistics ---
+rtt min/avg/max/mdev = 0.300/0.302/0.306/0.002 ms
+--- 10.10.173.3 ping statistics ---
+rtt min/avg/max/mdev = 0.304/0.307/0.318/0.005 ms

@@ -1,0 +1,101 @@
+  Setup:
+    Experiment =  
+    Nodes = algofi gard goracle zone
+    Internal network = 10.10.180.0/24
+    Function: 2
+    Protocols: 8
+    Datatypes = 256
+    Inputs = 10000000
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 45
+    txBuffer: 1000 10000 100000 1000000
+    rxBuffer: 1000 10000 100000 1000000
+    verifyBuffer: 1
+    manipulate: 0276
+    Testtypes:
+      BANDWIDTHS	= 10000 1000
+  Summary file = resultsMP-Slice/2023-06/04_01-54-57/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2023-06-04_01-55-03_022281
+  Total Experiment runtime = 0h31min14sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.77 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.79 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.76 Gbits/sec
+measured speed between nodes 1 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.79 Gbits/sec
+measured speed between nodes 2 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.83 Gbits/sec
+total receiver speed: 24.77 Gbits/sec
+measured speed between nodes 3 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.77 Gbits/sec
+
+Latency Info
+Node algofi statistics
+--- 10.10.180.3 ping statistics ---
+rtt min/avg/max/mdev = 0.250/0.297/0.317/0.023 ms
+--- 10.10.180.4 ping statistics ---
+rtt min/avg/max/mdev = 0.257/0.296/0.307/0.019 ms
+--- 10.10.180.5 ping statistics ---
+rtt min/avg/max/mdev = 0.303/0.307/0.312/0.003 ms
+Node gard statistics
+--- 10.10.180.4 ping statistics ---
+rtt min/avg/max/mdev = 0.088/0.288/0.648/0.204 ms
+--- 10.10.180.5 ping statistics ---
+rtt min/avg/max/mdev = 0.305/0.369/0.623/0.126 ms
+--- 10.10.180.2 ping statistics ---
+rtt min/avg/max/mdev = 0.304/0.307/0.311/0.002 ms
+Node goracle statistics
+--- 10.10.180.5 ping statistics ---
+rtt min/avg/max/mdev = 0.308/0.335/0.437/0.050 ms
+--- 10.10.180.2 ping statistics ---
+rtt min/avg/max/mdev = 0.304/0.307/0.313/0.003 ms
+--- 10.10.180.3 ping statistics ---
+rtt min/avg/max/mdev = 0.306/0.310/0.315/0.003 ms
+Node zone statistics
+--- 10.10.180.2 ping statistics ---
+rtt min/avg/max/mdev = 0.206/0.364/0.659/0.153 ms
+--- 10.10.180.3 ping statistics ---
+rtt min/avg/max/mdev = 0.203/0.244/0.303/0.045 ms
+--- 10.10.180.4 ping statistics ---
+rtt min/avg/max/mdev = 0.216/0.291/0.315/0.037 ms
