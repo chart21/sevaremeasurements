@@ -1,0 +1,11 @@
+program;protocol;partysize;input_size;runtime_internal(ms);runtime_external(s);peakRAM(MiB);jobCPU(%);ALLdataSent(MB);AllDataRec(MB);ALLmessagesSent;AllMessagesRec
+multiplication;arithmetic_gmw;3;1000000;12348.622;18.64;14587;146;621.829;621.829;514;514
+multiplication;arithmetic_gmw;3;1000000;11762.416;18.05;14648;146;621.829;621.829;514;514
+multiplication;arithmetic_gmw;3;1000000;12067.377;19.77;14650;143;621.829;621.829;514;514
+multiplication;arithmetic_gmw;3;1000000;11829.100;18.14;14814;153;621.829;621.829;514;514
+multiplication;arithmetic_gmw;3;1000000;12321.985;19.45;14648;143;621.829;621.829;514;514
+multiplication;arithmetic_gmw;3;1000000;12107.533;18.76;14650;145;621.829;621.829;514;514
+multiplication;arithmetic_gmw;3;1000000;12138.232;19.27;14589;143;621.829;621.829;514;514
+multiplication;arithmetic_gmw;3;1000000;12319.012;19.15;14587;147;621.829;621.829;514;514
+multiplication;arithmetic_gmw;3;1000000;12331.353;19.70;14587;142;621.829;621.829;514;514
+multiplication;arithmetic_gmw;3;1000000;11696.627;18.75;14648;148;621.829;621.829;514;514

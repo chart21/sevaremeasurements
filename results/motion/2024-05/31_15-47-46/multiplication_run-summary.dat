@@ -1,0 +1,53 @@
+  Setup:
+    Experiment = multiplication 
+    Nodes = idex meld tinyman
+    Internal network = 10.10.105.0/24
+    Inputs = 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000
+    Protocols = arithmetic_gmw
+    Testtypes:
+  Summary file = results/motion/2024-05/31_15-47-46/multiplication_run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2024-05-31_15-47-48_425252
+  Total Experiment runtime = 0h15min12sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.78 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+
+Latency Info
+Node idex statistics
+--- 10.10.105.3 ping statistics ---
+rtt min/avg/max/mdev = 0.250/0.332/0.552/0.111 ms
+--- 10.10.105.4 ping statistics ---
+rtt min/avg/max/mdev = 0.268/0.281/0.296/0.009 ms
+Node meld statistics
+--- 10.10.105.4 ping statistics ---
+rtt min/avg/max/mdev = 0.263/0.314/0.436/0.062 ms
+--- 10.10.105.2 ping statistics ---
+rtt min/avg/max/mdev = 0.259/0.267/0.272/0.005 ms
+Node tinyman statistics
+--- 10.10.105.2 ping statistics ---
+rtt min/avg/max/mdev = 0.224/0.300/0.451/0.078 ms
+--- 10.10.105.3 ping statistics ---
+rtt min/avg/max/mdev = 0.267/0.285/0.312/0.016 ms
