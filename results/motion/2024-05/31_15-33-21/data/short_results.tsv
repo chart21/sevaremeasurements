@@ -1,0 +1,11 @@
+program  protocol     partysize  input_size  runtime_internal(ms)  runtime_external(s)  peakRAM(MiB)  jobCPU(%)  ALLdataSent(MB)  AllDataRec(MB)  ALLmessagesSent  AllMessagesRec
+BitAnd   boolean_gmw  3          10000       4810.610              9.52                 4518          113        157.384          157.384         392              392
+BitAnd   boolean_gmw  3          10000       4258.185              9.02                 4456          107        157.384          157.384         392              392
+BitAnd   boolean_gmw  3          10000       4235.852              8.82                 4469          125        157.384          157.384         392              392
+BitAnd   boolean_gmw  3          10000       4538.904              9.40                 4449          126        157.384          157.384         392              392
+BitAnd   boolean_gmw  3          10000       4456.014              8.68                 4460          131        157.384          157.384         392              392
+BitAnd   boolean_gmw  3          10000       4827.724              9.59                 4572          107        157.384          157.384         392              392
+BitAnd   boolean_gmw  3          10000       4338.316              5.94                 4527          183        157.384          157.384         392              392
+BitAnd   boolean_gmw  3          10000       4522.054              9.29                 4510          120        157.384          157.384         392              392
+BitAnd   boolean_gmw  3          10000       4712.756              9.47                 4453          114        157.384          157.384         392              392
+BitAnd   boolean_gmw  3          10000       4397.977              9.08                 4516          127        157.384          157.384         392              392
