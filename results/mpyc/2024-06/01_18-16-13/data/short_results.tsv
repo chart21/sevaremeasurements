@@ -1,0 +1,11 @@
+program            partysize  input_size  runtime_internal(s)  Bytes Send  runtime_external(s)  peakRAM(MiB)  System Time(s)
+Benchmarks/BitAND  4          10000       0:00:18.928          1529864     19.62                456           4.28
+Benchmarks/BitAND  4          10000       0:00:19.332          1529864     19.59                458           4.19
+Benchmarks/BitAND  4          10000       0:00:18.869          1529864     19.41                472           4.33
+Benchmarks/BitAND  4          10000       0:00:19.076          1529864     19.73                493           4.24
+Benchmarks/BitAND  4          10000       0:00:19.166          1529864     19.55                459           4.49
+Benchmarks/BitAND  4          10000       0:00:19.242          1529864     19.49                459           4.08
+Benchmarks/BitAND  4          10000       0:00:18.624          1529864     19.30                487           4.32
+Benchmarks/BitAND  4          10000       0:00:18.426          1529864     18.89                493           4.15
+Benchmarks/BitAND  4          10000       0:00:19.059          1529864     19.82                499           4.36
+Benchmarks/BitAND  4          10000       0:00:18.497          1529864     18.77                512           4.43
