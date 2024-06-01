@@ -1,0 +1,11 @@
+program;partysize;input_size;runtime_internal(s);Bytes Send;runtime_external(s);peakRAM(MiB);System Time(s)
+Benchmarks/multiplication;4;10000000;0:00:20.964;315045632;25.26;4236;8.83
+Benchmarks/multiplication;4;10000000;0:00:20.820;315042176;25.17;4232;8.73
+Benchmarks/multiplication;4;10000000;0:00:24.728;315044677;25.15;4226;9.07
+Benchmarks/multiplication;4;10000000;0:00:20.751;315045536;25.06;4226;9.15
+Benchmarks/multiplication;4;10000000;0:00:20.794;315045176;25.07;4224;8.88
+Benchmarks/multiplication;4;10000000;0:00:20.649;315045433;24.96;4226;8.91
+Benchmarks/multiplication;4;10000000;0:00:20.801;315048297;25.13;4222;8.76
+Benchmarks/multiplication;4;10000000;0:00:20.829;315049353;25.06;4223;9.06
+Benchmarks/multiplication;4;10000000;0:00:24.817;315047052;25.13;4223;9.17
+Benchmarks/multiplication;4;10000000;0:00:20.699;315044431;25.09;4220;8.96
