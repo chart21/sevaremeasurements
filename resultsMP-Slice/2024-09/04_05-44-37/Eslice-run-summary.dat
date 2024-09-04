@@ -1,0 +1,209 @@
+  Setup:
+    Experiment =  
+    Nodes = algofi gard goracle zone
+    Internal network = 10.10.123.0/24
+    Function: 47
+    Protocols: 5 12
+    Datatypes = 256
+    Inputs = 224 224 224 224 224
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 1 4 8 12 16 20 24 28 32 36 40
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 2
+    Testtypes:
+  Summary file = resultsMP-Slice/2024-09/04_05-44-37/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2024-09-04_05-44-39_938556
+  Total Experiment runtime = 0h39min27sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+measured speed between nodes 1 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 2 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.70 Gbits/sec
+measured speed between nodes 3 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+
+Latency Info
+Node algofi statistics
+--- 10.10.123.3 ping statistics ---
+rtt min/avg/max/mdev = 0.246/0.300/0.323/0.027 ms
+--- 10.10.123.4 ping statistics ---
+rtt min/avg/max/mdev = 0.308/0.375/0.641/0.132 ms
+--- 10.10.123.5 ping statistics ---
+rtt min/avg/max/mdev = 0.086/0.119/0.206/0.043 ms
+Node gard statistics
+--- 10.10.123.4 ping statistics ---
+rtt min/avg/max/mdev = 0.290/0.374/0.639/0.132 ms
+--- 10.10.123.5 ping statistics ---
+rtt min/avg/max/mdev = 0.086/0.125/0.244/0.059 ms
+--- 10.10.123.2 ping statistics ---
+rtt min/avg/max/mdev = 0.308/0.313/0.320/0.004 ms
+Node goracle statistics
+--- 10.10.123.5 ping statistics ---
+rtt min/avg/max/mdev = 0.308/0.378/0.648/0.134 ms
+--- 10.10.123.2 ping statistics ---
+rtt min/avg/max/mdev = 0.306/0.308/0.314/0.002 ms
+--- 10.10.123.3 ping statistics ---
+rtt min/avg/max/mdev = 0.309/0.312/0.316/0.002 ms
+Node zone statistics
+--- 10.10.123.2 ping statistics ---
+rtt min/avg/max/mdev = 0.103/0.337/0.651/0.176 ms
+--- 10.10.123.3 ping statistics ---
+rtt min/avg/max/mdev = 0.307/0.308/0.314/0.002 ms
+--- 10.10.123.4 ping statistics ---
+rtt min/avg/max/mdev = 0.102/0.268/0.313/0.083 ms
