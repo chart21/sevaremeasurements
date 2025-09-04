@@ -1,0 +1,60 @@
+  Setup:
+    Experiment = 62_PrivateSetIntersect 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.99.0/24
+    Protocols:
+      Field  = 
+      Ring   = replicated-ring semi2k
+      Binary = 
+    Inputs = 100
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      BANDWIDTHS	= 25000 250000 25000 25000 25000 25000 25000 25000 25000 25000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 100 100 100 100 100 100 100 100 100 100
+  Summary file = results/mp-spdz/2025-09/04_10-24-56/E62-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2025-09-04_10-24-58_530472
+  Total Experiment runtime = 0h20min59sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.99.3 ping statistics ---
+rtt min/avg/max/mdev = 0.236/0.333/0.552/0.111 ms
+--- 10.10.99.4 ping statistics ---
+rtt min/avg/max/mdev = 0.261/0.275/0.299/0.013 ms
+Node tinyman statistics
+--- 10.10.99.4 ping statistics ---
+rtt min/avg/max/mdev = 0.275/0.347/0.578/0.115 ms
+--- 10.10.99.2 ping statistics ---
+rtt min/avg/max/mdev = 0.268/0.289/0.317/0.015 ms
+Node yieldly statistics
+--- 10.10.99.2 ping statistics ---
+rtt min/avg/max/mdev = 0.294/0.344/0.547/0.101 ms
+--- 10.10.99.3 ping statistics ---
+rtt min/avg/max/mdev = 0.256/0.284/0.300/0.017 ms
