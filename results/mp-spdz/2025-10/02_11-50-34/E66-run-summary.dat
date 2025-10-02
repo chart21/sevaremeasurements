@@ -1,0 +1,60 @@
+  Setup:
+    Experiment = 66_ThresholdSecurity 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.118.0/24
+    Protocols:
+      Field  = 
+      Ring   = replicated-ring semi2k
+      Binary = 
+    Inputs = 256
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      BANDWIDTHS	= 25000 25000 25000 25000 25000 25000 25000 25000 25000 25000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 100 100 100 100 100 100 100 100 100 100
+  Summary file = results/mp-spdz/2025-10/02_11-50-34/E66-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2025-10-02_11-50-37_041110
+  Total Experiment runtime = 0h19min20sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.64 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.118.3 ping statistics ---
+rtt min/avg/max/mdev = 0.264/0.293/0.335/0.025 ms
+--- 10.10.118.4 ping statistics ---
+rtt min/avg/max/mdev = 0.270/0.285/0.295/0.010 ms
+Node tinyman statistics
+--- 10.10.118.4 ping statistics ---
+rtt min/avg/max/mdev = 0.268/0.345/0.576/0.116 ms
+--- 10.10.118.2 ping statistics ---
+rtt min/avg/max/mdev = 0.263/0.291/0.304/0.014 ms
+Node yieldly statistics
+--- 10.10.118.2 ping statistics ---
+rtt min/avg/max/mdev = 0.228/0.330/0.538/0.107 ms
+--- 10.10.118.3 ping statistics ---
+rtt min/avg/max/mdev = 0.236/0.268/0.294/0.020 ms
