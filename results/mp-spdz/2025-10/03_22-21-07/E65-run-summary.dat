@@ -1,0 +1,60 @@
+  Setup:
+    Experiment = 65_NeuralNetworkLeNet 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.34.0/24
+    Protocols:
+      Field  = 
+      Ring   = replicated-ring
+      Binary = 
+    Inputs = 64
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      BANDWIDTHS	= 25000 25000 25000 25000 25000 25000 25000 25000 25000 25000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 100 100 100 100 100 100 100 100 100 100
+  Summary file = results/mp-spdz/2025-10/03_22-21-07/E65-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2025-10-03_22-21-09_431834
+  Total Experiment runtime = 0h21min46sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.78 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.78 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.34.3 ping statistics ---
+rtt min/avg/max/mdev = 0.232/0.336/0.593/0.130 ms
+--- 10.10.34.4 ping statistics ---
+rtt min/avg/max/mdev = 0.246/0.272/0.298/0.016 ms
+Node tinyman statistics
+--- 10.10.34.4 ping statistics ---
+rtt min/avg/max/mdev = 0.273/0.341/0.550/0.104 ms
+--- 10.10.34.2 ping statistics ---
+rtt min/avg/max/mdev = 0.189/0.265/0.298/0.039 ms
+Node yieldly statistics
+--- 10.10.34.2 ping statistics ---
+rtt min/avg/max/mdev = 0.272/0.330/0.530/0.100 ms
+--- 10.10.34.3 ping statistics ---
+rtt min/avg/max/mdev = 0.249/0.293/0.323/0.025 ms
