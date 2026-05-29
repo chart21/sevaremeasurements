@@ -1,0 +1,41 @@
+  Setup:
+    Experiment =  
+    Nodes = algofi goracle zone
+    Internal network = 10.10.119.0/24
+    Function: 2
+    Protocols: 10
+    Datatypes = 256
+    Inputs = 10000000
+    Preprocessing: 0
+    SplitRoles: 3
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 2
+    txBuffer: 1000 10000 100000
+    rxBuffer: 0 100000 1000000
+    verifyBuffer: 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2026-05/29_19-01-03/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/harthkit/default/2026-05-29_19-01-04_776161
+  Total Experiment runtime = 0h4min53sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+
+Latency Info
+Node algofi statistics
+Node goracle statistics
+Node zone statistics
